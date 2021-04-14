@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from './Card';
+import {AlertFadelessExample} from './ControlledAlerts';
 
 function Home() {
     const units = [
@@ -11,6 +12,7 @@ function Home() {
     ]
     return (
         <div className="container-fluid">
+            <AlertFadelessExample/>
             <div className="row">
                 {
                     units.map(element => {
